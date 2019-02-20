@@ -69,12 +69,12 @@ a {
 
 .rr-sidebar {
   float: left;
-  width: calc( 100% / 3 );
+  width: calc( 100% / 3 ); /* .w-third */
 }
 
 .rr-main-panel {
   float: left;
-  width: ( 100% / 1.5 );
+  width: calc( 100% / 1.5 ); /* .w-two-thirds */
 }
 
 .rr-list {

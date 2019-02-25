@@ -150,6 +150,10 @@ a {
   justify-content: space-between;
 }
 
+.rating-panel > .rating-star {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 60em) and (max-width: 100em) {
   .rr-container {
     width: 80%;

@@ -9,7 +9,5 @@ let Song = EmberObject.extend({
 });
 
 export default Route.extend({
-  model() {
-    return this.modelFor('bands.band');
-  }
+  
 });

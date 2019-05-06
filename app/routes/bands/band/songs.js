@@ -1,11 +1,4 @@
 import Route from '@ember/routing/route';
-import EmberObject from '@ember/object';
-
-let Song = EmberObject.extend({
-  title: '',
-  band: '',
-  rating: 0
-});
 
 export default Route.extend({
   resetController(controller) {

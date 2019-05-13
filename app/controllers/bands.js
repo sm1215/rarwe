@@ -1,6 +1,5 @@
 import Controller from '@ember/controller';
 import { empty } from '@ember/object/computed';
-import Band from 'rarwe/models/band';
 
 export default Controller.extend({
   isAddingBand: false,

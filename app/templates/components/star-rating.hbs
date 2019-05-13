@@ -2,7 +2,11 @@
   {{yield stars}}
 {{else}}
   {{#each stars as |star|}}
-    <span class="rating-star" onclick={{action "setRating" star.rating}} role="button">
+    <span
+      class="rating-star"
+      onclick={{action "setRating" star.rating}}
+      role="button"
+      data-test-rr={{concat "star-rating-" star.rating}}>
       {{#if star.isFull}}
         {{fa-icon "star"}}
       {{else}}
